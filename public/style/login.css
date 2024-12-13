@@ -1,0 +1,74 @@
+/* Latar belakang gradasi */
+body {
+    background: linear-gradient(135deg, #94d7f9, #4fb0e0);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial', sans-serif;
+  }
+
+  /* Kotak login */
+  .login-box {
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto 20px;
+    justify-content: center;
+  }
+  /* Heading */
+  .login-box h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  /* Input dengan ikon */
+  .form-control {
+    padding-left: 40px;
+    border-radius: 5px;
+  }
+
+  .form-group .input-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #aaa;
+  }
+
+  /* Tombol login */
+  .btn-primary {
+    background-color: #2196F3;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    transition: all 0.3s ease;
+  }
+
+  .btn-primary:hover {
+    background-color: #1976D2;
+  }
+
+  /* Tautan */
+  .text-center a {
+    color: #2196F3;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .text-center a:hover {
+    color: #1976D2;
+  }
